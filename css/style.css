@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Oswald|Quattrocento');
+
+.header {
+  font-family: "Kashuan Script", cursive;
+  font-size: 50px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  background-image: url("../images/cherryblossom.png");
+  background-size: cover;
+  background-color: #ea9fc9;
+}
+
+.header a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: #d43f93;
+}
+
+.navbar a {
+  text-decoration: none;  
+  padding: 4px 15px;
+  color: #ffffff;
+}
+
+.navbar a:hover {
+  color: lightblue; 
+}
+
+body {
+    font-family: "Quattrocento", serif;
+    font-size: 18px;
+    width: 80%;
+    margin: auto;
+    background-color: lightblue;
+    justify-content: center;
+}
+
+.main {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.main a {
+  text-decoration: none;
+  color: #d43f93;
+}
+
+.main a:hover {
+  color: lightblue;
+}
+
+h {
+    font-family: "Oswald", san-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 8px auto;
+}
+
+
+/*mobile design*/
+@media only screen and (max-width: 1000px) {
+  .navbar, .header, body {
+    width: 100%;
+    align-items: center;
+    }
+    
+    .main {
+      width: 97%;
+      align-items: center;
+      margin: 10px;
+    }
+    
+    body {
+      background-color: #ffffff;
+    }
+  }
+ 
